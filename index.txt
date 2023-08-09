@@ -12,4 +12,3 @@ https://scrimba.com/learn/learnreact/project-key-prop-cod824954b2c1feecf545bc49
 
 Project
 When the user types in a characters name & clicks the "generate" btn that characters pic is displayed.
-
