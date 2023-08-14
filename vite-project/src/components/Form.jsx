@@ -53,6 +53,7 @@ export default function MyForm() {
 
   return (
     <>
+    {/* DO i need a form? */}
       <form action="post" className="form">
         <input
           className="formInput"
