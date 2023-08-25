@@ -5,6 +5,7 @@ export default function Header(){
   return(
     // Didn't use fragments cuz I'll be applying style to this
     <header className="header">
+      {/* sailor moon logo */}
 
     </header>
   )
