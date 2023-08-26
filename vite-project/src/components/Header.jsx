@@ -6,7 +6,7 @@ export default function Header(){
     // Didn't use fragments cuz I'll be applying style to this
     <header className="header">
       {/* sailor moon logo */}
-
+      <img src="" alt="" />
     </header>
   )
 }
