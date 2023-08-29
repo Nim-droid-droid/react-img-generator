@@ -7,10 +7,9 @@
 import React, {useState, useContext} from "react";
 
 // 1. Create Context(s)
+const ThemeContext = React.createContext();
 
 // 2. Create function that will export the context(s)
-
-
 
 // 3. Create function that will act as the Provider for the context(s)
 export function ThemeProvider({children}){
