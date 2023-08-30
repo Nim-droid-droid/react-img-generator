@@ -8,6 +8,7 @@ import React, {useState, useContext} from "react";
 
 // 1. Create Context(s)
 const ThemeContext = React.createContext();
+const ThemeContextUpdater = React.createContext();
 
 // 2. Create function that will export the context(s)
 
