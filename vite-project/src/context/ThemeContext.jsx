@@ -14,6 +14,9 @@ const ThemeContextUpdater = React.createContext();
 export function useTheme(){
   return useContext(ThemeContext)
 }
+export function useThemeUpdater(){
+  return useContext(ThemeContextUpdater)
+}
 
 // 3. Create function that will act as the Provider for the context(s)
 export function ThemeProvider({children}){
