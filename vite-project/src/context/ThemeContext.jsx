@@ -21,6 +21,7 @@ export function useThemeUpdater(){
 // 3. Create function that will act as the Provider for the context(s)
 export function ThemeProvider({children}){
 // create val/state for (ThemeContext) Context
+const [darkTheme, setDarkTheme] = useState(true);
 
 // create val/state for (ThemeContextUpdater) Context
 
