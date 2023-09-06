@@ -26,7 +26,8 @@ const [darkTheme, setDarkTheme] = useState(true);
 // create val/state for (ThemeContextUpdater) Context
 
 // Add the styling for theme here so i dnt have to create it within each cmpnt that uses it
-
+// HOW to pass this to children? use style={} prop?
+  // const themeStyle = {}
 
   return(
 // 4. Give the Context(s) vals via their value={} prop & Provide them to their children
