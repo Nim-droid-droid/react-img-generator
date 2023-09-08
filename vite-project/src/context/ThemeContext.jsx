@@ -29,6 +29,7 @@ const [darkTheme, setDarkTheme] = useState(true);
 // HOW to pass this to children? use style={} prop?
 // const themeStyle = {
 //   backgroundColor: darkTheme ? '#333' : '#CCC',
+//   color: darkTheme ? '#333' : '#CCC',
   // }
 
   return(
