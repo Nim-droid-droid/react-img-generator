@@ -30,6 +30,7 @@ const [darkTheme, setDarkTheme] = useState(true);
 // const themeStyle = {
 //   backgroundColor: darkTheme ? '#333' : '#CCC',
 //   color: darkTheme ? '#333' : '#CCC',
+//   padding: '2rem',
   // }
 
   return(
