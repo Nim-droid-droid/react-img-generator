@@ -14,27 +14,36 @@ const ThemeContextUpdater = React.createContext();
 export function useTheme(){
   return useContext(ThemeContext)
 }
+
 export function useThemeUpdater(){
   return useContext(ThemeContextUpdater)
 }
 
+
 // 3. Create function that will act as the Provider for the context(s)
 export function ThemeProvider({children}){
 // create val/state for (ThemeContext) Context
-const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme, setDarkTheme] = useState(true);
 
 // create val/state for (ThemeContextUpdater) Context
+  function toggleTheme(){
+    setDarkTheme(preVal => !preVal)
+    console.log("clicked")
+  }
 
 // Add the styling for theme here so i dnt have to create it within each cmpnt that uses it
 // HOW to pass this to children? use style={} prop?
-// const themeStyle = {
-//   backgroundColor: darkTheme ? '#333' : '#CCC',
-//   color: darkTheme ? '#333' : '#CCC',
-//   padding: '2rem',
+  // const themeStyle = {
+  //   backgroundColor: darkTheme ? '#333' : '#CCC',
+  //   color: darkTheme ? '#333' : '#CCC',
+  //   padding: '2rem',
+  //   margin: '2rem',
   // }
 
+  // useEffect display msg each time user clicks on btn to trigger update
+
   return(
-// 4. Give the Context(s) vals via their value={} prop & Provide them to their children
+    // 4. Give the Context(s) vals via their value={} prop & Provide them to their children
     <>
     </>
   )
