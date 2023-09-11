@@ -38,6 +38,7 @@ export function ThemeProvider({children}){
   //   color: darkTheme ? '#333' : '#CCC',
   //   padding: '2rem',
   //   margin: '2rem',
+  //   fontSize: "20px",
   // }
 
   // useEffect display msg each time user clicks on btn to trigger update
