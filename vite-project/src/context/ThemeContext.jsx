@@ -46,6 +46,8 @@ export function ThemeProvider({children}){
   return(
     // 4. Give the Context(s) vals via their value={} prop & Provide them to their children
     <ThemeContext.Provider value={darkTheme}>
+      <ThemeContextUpdater.Provider>
+      </ThemeContextUpdater.Provider>
     </ThemeContext.Provider>
   )
 }
