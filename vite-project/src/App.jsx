@@ -5,7 +5,8 @@ import { ThemeProvider, useTheme, useThemeUpdater } from './context/ThemeContext
 
 
 export default function App() {
-  
+  const darkTheme = useTheme()
+
   return(
     <>
     </>
