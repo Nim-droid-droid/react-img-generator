@@ -5,6 +5,7 @@ import { ThemeProvider, useTheme, useThemeUpdater } from './context/ThemeContext
 
 
 export default function App() {
+  // darkTheme var can be called anything. doesnt have to match the state name darkTheme
   const darkTheme = useTheme()
 
   return(
