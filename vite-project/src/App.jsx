@@ -8,6 +8,7 @@ export default function App() {
   // darkTheme var can be called anything. doesnt have to match the state name darkTheme
   const darkTheme = useTheme()
 
+  //Grab & store toggleTheme func from ThemeContext into toggle_Theme var
   return(
     <>
     </>
