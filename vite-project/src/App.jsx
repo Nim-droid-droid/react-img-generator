@@ -9,6 +9,8 @@ export default function App() {
   const darkTheme = useTheme()
 
   //Grab & store toggleTheme func from ThemeContext into toggle_Theme var
+  const toggle_theme = useThemeUpdater()
+
   return(
     <>
     </>
