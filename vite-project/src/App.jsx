@@ -12,6 +12,7 @@ export default function App() {
   const toggle_theme = useThemeUpdater()
 
   // Add the styling for theme here so i dnt have to create it within each cmpnt that uses it
+  const themeStyles = {}
 
   return(
     <>
