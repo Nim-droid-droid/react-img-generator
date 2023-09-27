@@ -14,6 +14,7 @@ export default function App() {
   // Add the styling for theme here so i dnt have to create it within each cmpnt that uses it
   const themeStyles = {
     backgroundColor: darkTheme ? '#333' : '#CCC',
+    color: darkTheme ? '#CCC' : '#333',
   }
 
   return(
