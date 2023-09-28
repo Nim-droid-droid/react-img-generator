@@ -15,6 +15,7 @@ export default function App() {
   const themeStyles = {
     backgroundColor: darkTheme ? '#333' : '#CCC',
     color: darkTheme ? '#CCC' : '#333',
+    fontSize: "20px",
   }
 
   return(
