@@ -17,6 +17,7 @@ export default function App() {
     color: darkTheme ? '#CCC' : '#333',
     fontSize: "20px",
     padding: '2rem',
+    margin: '2rem',
   }
 
   return(
