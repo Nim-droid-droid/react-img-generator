@@ -23,6 +23,7 @@ export default function App() {
   return(
     <ThemeProvider>
     {/* Provide children/pass in children to ThemeProvider children object */}
+      <Header />
     </ThemeProvider>
   )
 }
