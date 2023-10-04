@@ -24,6 +24,7 @@ export default function App() {
     <ThemeProvider>
     {/* Provide children/pass in children to ThemeProvider children object */}
       <Header />
+      <Form />
     </ThemeProvider>
   )
 }
