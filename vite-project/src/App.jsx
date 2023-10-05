@@ -11,6 +11,8 @@ export default function App() {
   //Grab & store toggleTheme func from ThemeContext into toggle_Theme var
   const toggle_theme = useThemeUpdater()
 
+  // Since useThemeUpdater only works on cmpnts passed as children but not the app overall im going to create the useThemeUpdater func here
+
   // Add the styling for theme here so i dnt have to create it within each cmpnt that uses it
   const themeStyles = {
     backgroundColor: darkTheme ? '#333' : '#CCC',
